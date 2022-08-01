@@ -1,0 +1,129 @@
+
+@media (max-width: 1300px) {
+    .genero{
+        flex-flow: row wrap;
+    }
+    .genero__buble{
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    .borde{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 992px) {
+    .header__middle__seach__input input {
+        width: 386px;
+    }
+    #fecha p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 10px;
+    }
+    button .action{
+        font-size: 10px;
+    }
+    button .amount{
+        font-size: 10px;
+    }
+    .info__video__right {
+        align-items:center;
+    }
+    .info__video {
+        height: 93px;
+    }
+    .card__text__coment {
+        width: 609px;
+        font-size: 15px;
+    }
+    .btn button .img {
+        width: 20px;
+        height: 20px;
+    }
+    .info__chanel__top__chanel__title h2 {
+        font-size: 15px;
+    }
+    .info__chanel__bot__description {
+        font-size: 14px;
+    }
+    .genero__buble {
+        max-width: 150px;
+        font-size: 11px;
+    }
+    .cardvideo__text__title {
+        font-size: 14px;
+    }
+    .cardvideo__text__subTilte {
+        font-size: 11px;
+    }
+}
+@media (max-width: 768px) {
+    .header__middle__seach__input input {
+        width: 200px;
+    }
+    #contenido {
+        flex-direction: column;
+    }
+    .info__video {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    button .action{
+        font-size: 20px;
+    }
+    button .amount{
+        font-size: 20px;
+    }
+    #fecha p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .header__right__buttons__funtionaliti:nth-child(2){
+        visibility: hidden;
+        width: 0;
+    }
+}
+@media (max-width: 428px) {
+    .header__middle__seach__input input {
+        width: 100px;
+    }
+    .header__right {
+        min-width: 94px;
+      }
+    .header__right__buttons__funtionaliti{
+        visibility: hidden;
+        width: 0;
+    }
+    .header__right__buttons__funtionaliti:last-child{
+        visibility: visible;
+        width: 20px;
+    }
+    
+
+    #fecha p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    button .action{
+        font-size: 10px;
+    }
+    button .amount{
+        font-size: 10px;
+    }
+    .card__text__coment {
+        width:320px;
+        font-size: 15px;
+    }
+    .genero__buble {
+        max-width: 140px;
+        font-size: 10px;
+    }
+}
+  
